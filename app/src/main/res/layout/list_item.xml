@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/subjectImage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="@dimen/tenDp"
+        android:layout_marginStart="@dimen/tenDp"
+        android:layout_marginTop="@dimen/tenDp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/subjectImage"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/nameOfEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/marginBig"
+        android:textSize="@dimen/textTitle"
+        android:textStyle="bold" />
+</RelativeLayout>
